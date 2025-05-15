@@ -38,7 +38,7 @@ with open("names.csv", "r") as file:
         certificate_id = str(uuid.uuid4())[:8]
         print(f"Generating For ~ {name} (ID: {certificate_id})")
 
-        img = Image.open("certificates/C2.png")
+        img = Image.open("certificates/C4.png")
         draw = ImageDraw.Draw(img)
 
         font_path = "fonts/RougeScript-Regular.ttf"
